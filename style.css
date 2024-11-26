@@ -16,7 +16,7 @@ html,body{
    
 }
 .side-screen{
-    width: 40vw;
+    width: 45vw;
      height: 100vh;
     position: relative;   
     display: flex;
@@ -74,7 +74,7 @@ html,body{
 .section-one{
     font-size:3rem;
     background-color:var(--light-gray);
-    width: 70vw;
+    width: 60vw;
     height: 33vh;
     display: flex;
     padding-left: 5rem;
@@ -84,4 +84,35 @@ html,body{
     font-weight: bolder;
     line-height: 1.2;
   
+}
+
+.section-two{
+    padding-left:5rem;
+    width: 60vw;
+    height: 33vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-size: 4rem;
+    border-radius: 8px;
+    height: 3rem;
+}
+label{
+    font-size: 2rem;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.form-heading{
+    font-size:4rem;
+    font-weight: 900;
+}
+.element-join{
+    display: flex;
+    gap: 12rem;
 }
