@@ -74,19 +74,25 @@ html,body{
     flex-direction: column;
 }
 .section-one{
+    position: relative;
     font-size:3rem;
     background-color:var(--light-gray);
     /* width: 55vw; */
     width: 53.4vw;
     height: 33vh;
-    display: flex;
+    /* display: flex; */
     padding-left: 5rem;
-    justify-content: flex-start;
-    align-items:center;
+    /* justify-content: flex-start;
+    align-items:center; */
     font-size: 3.5rem;
     font-weight: bolder;
     line-height: 1.2;
   
+  
+}
+.content{
+    position: absolute;
+    top: 20rem;
 }
 
 .section-two{
@@ -139,3 +145,30 @@ form{
    flex-direction: column;
    gap: 3em;
 }
+.section-three{
+    padding-left:5rem;
+    width: 53.4vw;
+    height: 33vh;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+button{
+    margin-top: 80px;
+    width: 25rem;
+    height: 6rem;
+    border-radius: 16px;
+    background-color: #596D48;
+    color: white;
+    font-size: 2rem;
+}
+a{
+    color:#596D48;
+    text-decoration: none;
+    
+}
+.section-three > p{
+    font-size: 2rem;
+}
+
