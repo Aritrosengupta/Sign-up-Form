@@ -4,7 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+input{
+    appearance: none;
+}
 :root{
     --light-gray:rgb(215, 215, 215);
 }
@@ -74,7 +76,8 @@ html,body{
 .section-one{
     font-size:3rem;
     background-color:var(--light-gray);
-    width: 60vw;
+    /* width: 55vw; */
+    width: 53.4vw;
     height: 33vh;
     display: flex;
     padding-left: 5rem;
@@ -88,16 +91,19 @@ html,body{
 
 .section-two{
     padding-left:5rem;
-    width: 60vw;
+    width: 53.4vw;
     height: 33vh;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    
 }
 input{
-    font-size: 4rem;
+    font-size:2rem;
+    width: 50rem;
     border-radius: 8px;
     height: 3rem;
+    border: 3px solid #E5E7EB;
 }
 label{
     font-size: 2rem;
@@ -115,4 +121,21 @@ label{
 .element-join{
     display: flex;
     gap: 12rem;
+}
+input[type=password]:invalid {
+    border: 3px solid red;
+  }
+
+input:focus{
+    border: 3px solid lightblue; /* A solid red border on focus */
+    outline: none; /* Removes the default outline */
+    box-shadow: 0 0 10px lightblue; 
+}
+input:invalid{
+    border: 3px solid red;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   gap: 3em;
 }
