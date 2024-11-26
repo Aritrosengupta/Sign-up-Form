@@ -1,0 +1,65 @@
+@font-face {
+    font-family: norse-bold;
+    src: url('Norse-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+html,body{
+    display: flex;
+    height: 100%;
+    margin: 0;
+   
+}
+.side-screen{
+    width: 40vw;
+     height: 100vh;
+    position: relative;   
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.card-image{
+    width: 100%;
+   height:100vh;
+   opacity: 0.9;   
+}
+.header{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    top: 28rem;
+    text-align: center;
+    font-size: 1rem;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.heading{
+    position: relative;
+    top: -120px;
+    font-size: 12rem;
+    font-family: norse-bold;
+    color:white;
+    margin-bottom: -20px;
+    font-weight: bolder;
+}
+.credit a{
+    color: white;
+}
+
+.credit{
+    position: absolute;
+    bottom: 0rem;
+    left: 25em;
+    font-size: 34px;
+    color:white;
+}
+.logo{
+    height: 12vh;
+}
